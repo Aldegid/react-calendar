@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+}
+.fc-day-grid-event {
+  cursor: pointer;
+}
+
+.pop {
+  z-index: 9999;
+}

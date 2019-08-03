@@ -1,0 +1,40 @@
+.main__header {
+  height: 70px;
+  background-color: #3f3e40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+  color: tomato;
+  text-decoration: none;
+  font-family: 'Abril Fatface', cursive;
+  padding: 0 15px;
+  transition: all 0.25s ease;
+}
+
+.logo:hover {
+  color: #ffffff;
+}
+
+.menu {
+  padding-right: 25px;
+}
+.menu a {
+  color: #ffffff;
+  margin-left: 25px;
+  transition: all 0.25s ease;
+}
+.menu a:hover {
+  color: tomato;
+}
+
+@media (max-width: 575.98px) {
+  .logo {
+    font-size: 20px;
+  }
+  .menu a {
+    margin-left: 15px;
+  }
+}
